@@ -22,3 +22,13 @@ if(gender != 'male' &&  gender != 'female'){
     }
 }
 }
+
+let questions = [
+    prompt("Are you hungry? Yes/No")||"Invalid",
+    prompt("Are you good? Yes/No")||"Invalid",
+    prompt("Are you samrt? Yes/No")||"Invalid",
+];
+
+questions.forEach(ans => {
+    console.log(ans);
+});

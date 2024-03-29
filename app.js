@@ -15,7 +15,7 @@ if(gender != 'male' &&  gender != 'female'){
     alert("Welcome ");
 }else{
 
-    if(gneder == 'male'){
+    if(gender == 'male'){
         alert("Welcome Mr." + username);
     }else{
         alert("Welcome Ms." + username);
